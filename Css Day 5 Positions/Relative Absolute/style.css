@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+   
+
+}
+
+.bg-img{
+    border-radius: 14px;
+    position: absolute  ;
+    height: 100%;
+    width: 100%;
+   top: 0;
+   
+}
+.content{
+    width: 550px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: white;
+
+}
+
+.shadow{
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.442);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
