@@ -1,0 +1,44 @@
+.nav{
+  
+    position: sticky;
+    top: 0;
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    height: 30px;
+}
+
+.btn{
+    color: black;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+
+}
+
+.card{
+    width: 250px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    padding: 9px;
+    
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
