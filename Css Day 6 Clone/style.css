@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter:wght@400;700;900&display=swap');
+
+body{
+    font-family: 'Amatic SC', sans-serif;
+font-family: 'Inter', sans-serif;
+    margin: 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+.bg{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 1.2;
+}
+.shade{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.439);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    /* background-image: linear-gradient(190deg, rgba(255, 0, 0, 0.469), rgba(0, 0, 255, 0.46), rgba(255, 166, 0, 0.459)); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.content{
+    width: 1000px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-title{
+    font-size: 50px;
+    font-weight: 900;
+}
+.bg-subtitle{
+    font-size: 24px;
+    font-weight: normal;
+}   
+
+.input-flex{
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid rgb(129, 126, 126) ;
+    width: 350px;
+    height: 45px;
+    background-color: black;
+    /* padding: 1.5rem 1rem 0.5rem;; */
+}
+
+.btn{   
+    background-color: red;
+    height: 45px;
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: auto;
+    border: 1px solid red   ;
+
+}

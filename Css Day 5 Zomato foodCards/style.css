@@ -42,3 +42,51 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.food-card{
+      
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.card-image{
+    width: 100%;
+    border-radius: 14px;
+    
+}
+
+.title{
+    margin: 6px 0;
+}
+.desc{
+    margin: 4px 0;
+    color: #0000009f;
+}
+
+.card-header{
+    position: relative;
+}
+.best{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgb(255, 222, 160);
+    color: rgb(84, 55, 0);
+    border-radius: 14px;
+    padding: 2px 12px;
+
+}
+
+.ratings{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 14px;
+    padding: 2px 12px;
+}
