@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: sans-serif;    
+}
+
+.container{
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    display:flex;
+    gap: 50px;
+
+}
+
+.side{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 695px;
+    background-color: #202123;
+}
+
+.sidebar{
+    overflow: hidden;
+    padding-left: 5px;
+    /* border: #760b0b; */
+    width: 230px;
+    height: 560px;
+    background-color: #202123;
+    border-radius: 1px solid #fff;
+}   
+.sidebar-top-flex{
+    margin-top: 5px;
+    margin-left: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.chat-btn{
+    text-align: left;
+    width: 192px;
+    height: 44px;
+    background-color: #202123;
+    border: 1px solid #8e8ea0   ;
+    color: #ececf1;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+
+}
+
+.day-text{
+    color: #8e8ea0;
+    margin: 20px 5px;
+}
+.card{
+    padding: 0;
+    margin-left: 10px;
+}
+
+.chat-card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 12px;
+}
+.chat-img{
+    height: 12px;
+    width: 12px;
+    color: #ececf1;
+    background-color:  #ececf1;;
+}
+
+.desc{
+    margin:4px ;
+    color:#ececf1;
+    font-size: small;
+}
+
+.bottom-user{
+    position: absolute;
+    bottom: 0   ;
+    margin: 5px 10px 5px 5px;
+    border-top: 1px solid #fff;
+    width: 100%;
+    height: 80px;
+}
+
+.user-text{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.main{
+    align-self: flex-end;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-color: #565869;
+}
+
+.gpt-v{
+    align-items: center;
+    display: flex;
+    position: fixed;
+    border-radius: 14px;
+    top: 15px;
+    left: 450px;
+    margin: 5px auto;
+    background-color: #282830;
+    width: 308px;
+    height: 50px;
+    padding: 0 6px 0 0;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.gpt3{
+    text-align: center;
+    width: 80px;
+    margin-left: 10px;
+    padding: 10px 30px 7px 30px;
+    background-color:#565869 ;
+    border-radius: 8px;
+    color: white;
+}
+.gpt4{
+    /* display: flex; */
+    /* width: 50px;
+    height: 40px; */
+    margin-right: 30px;
+    /* align-items: center; */
+    color: white;
+}
+
+.q-fixed{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: #282830;
+    bottom: 0;
+    right: 0;
+    border-radius: 50px;
+}
+
+.chatgpt{
+    position: fixed;
+    color:#8e8ea0;
+    position: fixed;
+    margin: 250px 550px;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 10px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+
+}
+.card-suggest{
+    width: 295px;
+    height: 44px;
+}
